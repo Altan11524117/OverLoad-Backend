@@ -38,7 +38,7 @@ Lokal ortamınızda projeyi ayağa kaldırmak için şu adımları izleyin:
 
 **1. Depoyu klonlayın:**
 ```bash
-git clone [https://github.com/KULLANICI_ADIN/overload-api.git](https://github.com/KULLANICI_ADIN/overload-api.git)
+git clone [https://github.com/Altan11524117/OverLoad-Backend](https://github.com/Altan11524117/overload-backend.git)
 cd overload-api
 
 python -m venv venv
