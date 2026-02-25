@@ -72,10 +72,6 @@ POST /workouts/generate/ - Gemini AI'yı tetikleyerek kişiye özel plan oluştu
 
 GET /workouts/plans/ - Kullanıcının geçmiş planlarını listeleme.
 
-👨‍💻 Geliştirici Hakkında
-Altan
-Bilgisayar Mühendisliği Öğrencisi | Backend Geliştirici
-
 🔗 LinkedIn: [https://www.linkedin.com/in/altan-ayd%C4%B1n/]
 
 🐙 GitHub: [https://github.com/Altan11524117]
