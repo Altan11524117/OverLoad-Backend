@@ -1,8 +1,13 @@
 import json
 import google.generativeai as genai
 from .models import WorkoutPlan, WorkoutDay, WorkoutExercise, Exercise
+import os
+from dotenv import load_dotenv
 
-genai.configure(api_key="AIzaSyCDJzYI85UwAITVTyyM5vpc1Y3vGpx2xuQ")
+load_dotenv() 
+
+api_key = os.getenv("GEMINI_API_KEY")
+genai.configure(api_key=api_key)
 
 def generate_workout_plan_for_user(user):
   
