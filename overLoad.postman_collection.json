@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "d905bcf2-6727-4abb-979d-65ac340b4264",
+		"name": "overLoad",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50725535",
+		"_collection_link": "https://altan11524117-4937554.postman.co/workspace/Altan-Aydin's-Workspace~b00ad1ce-2e41-4aed-8cb4-45b3516acb3c/collection/50725535-d905bcf2-6727-4abb-979d-65ac340b4264?action=share&source=collection_link&creator=50725535"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzcxOTc3MjExLCJpYXQiOjE3NzE5NzY5MTEsImp0aSI6ImYwZTQ1M2JlNGJkNTQxYTU5MjUyZDI0YzczMzY1YWRkIiwidXNlcl9pZCI6IjIifQ.9jbDsi7IGl3McpDNusGViSHm2KDoaOoTgd5OTEBp-gs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/workouts/generate/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"workouts",
+						"generate",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzcxOTc3MjExLCJpYXQiOjE3NzE5NzY5MTEsImp0aSI6ImYwZTQ1M2JlNGJkNTQxYTU5MjUyZDI0YzczMzY1YWRkIiwidXNlcl9pZCI6IjIifQ.9jbDsi7IGl3McpDNusGViSHm2KDoaOoTgd5OTEBp-gs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/workouts/plans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"workouts",
+						"plans",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
